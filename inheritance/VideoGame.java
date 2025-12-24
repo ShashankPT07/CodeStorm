@@ -1,0 +1,3 @@
+class VideoGame extends Game {
+
+}

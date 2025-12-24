@@ -1,0 +1,3 @@
+class PublicLibrary extends Library {
+    
+}
