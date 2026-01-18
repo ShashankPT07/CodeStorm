@@ -1,7 +1,7 @@
 class BookRunner {
     public static void main(String[] args) {
-        Novel.setPageCount();
-        Novel novel = new Novel();
-        novel.displayTitle();
+        Author author = new Author("J.K. Rowling");
+        Book book = new Book(author);
+        book.displayBook();
     }
 }
